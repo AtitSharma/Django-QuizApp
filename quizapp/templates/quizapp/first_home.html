@@ -1,0 +1,4 @@
+{% for quiz in quizs %}
+    <a href="{% url 'quiz:display-cat' quiz.title %}">{{quiz}} </a>
+    <br>
+{% endfor %} 
